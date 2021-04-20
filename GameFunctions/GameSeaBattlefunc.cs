@@ -4,10 +4,10 @@ namespace GameFunctions
 {
     public class GameSeaBattlefunc
     {
-        protected const int four = 1;
-        protected const int three = 2;
-        protected const int two = 3;
-        protected const int one = 4;
+        protected const int four = 1; // количество 4 палубных кораблей
+        protected const int three = 2; // количество 3 палубных кораблей
+        protected const int two = 3; // количество 2 палубных кораблей
+        protected const int one = 4; // количество 1 палубных кораблей
         public static int Indent = 2;
         public int[,] Field1 = new int[10, 10]; //0 - пустая клетка, 1 - корабль, 2 - попадание по кораблю, 3 - промах
         public static readonly string[] str1 = {"а", "б", "в", "г", "д", "е", "ж", "з", "и", "к"};
@@ -75,5 +75,6 @@ namespace GameFunctions
                     break;
             }
         }
+        
     }
 }
