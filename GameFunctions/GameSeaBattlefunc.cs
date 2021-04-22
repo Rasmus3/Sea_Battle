@@ -455,7 +455,7 @@ namespace GameFunctions
                     LocalField[y, j] = 1;
                 }
             }
-        }
+        } //Кораблики
 
         private void Three()
         {
